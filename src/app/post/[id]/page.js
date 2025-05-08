@@ -13,6 +13,7 @@ export async function generateMetadata({params}) {
         description: data.post.description
     }
 }
+
 export default function Page({params}) {
     return (
         <div>
